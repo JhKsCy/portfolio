@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f2e3;
+}
+
+.outfit-font {
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+}
+
+.brasikadisplay-font {
+    font-family: 'Brasika Display - Trial', sans-serif;
+}                
+
+.orange-button {
+    display: inline-block;
+    background-color: #FCAB64;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: "Outfit", sans-serif;
+    color: #f7f2e3;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 10px 1%;
+    border: 18px solid #4A5899;
+    background-color: #4A5899;
+}
+
+.header__icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 26px;
+}
+
+.header__icon img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header__menu-container {
+    width: 35%;
+}
+
+.contact-me__button {
+    display: inline-block;
+            background-color: #FCAB64;
+            padding: 8px 22px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 20px;
+            color: #07020D;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f7f2e3;
+}
+
+
+
+.title-page__graphics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 130px;
+    background-color: #4A5899
+}
+
+.title-page__graphics img {
+    height: 600px;
+    position: absolute;
+    margin: 85px 670px 0 0;
+    z-index: 2;
+}
+
+.title-page__graphics p {
+    z-index: 3;
+    color: #f7f2e3;
+    height: 140px;
+}
+
+.title-page__bg-graphics {
+   -webkit-text-stroke: 2px #A0CED9;
+   color: transparent;
+   z-index: 1;
+}
+
+.title-page__bg-graphics li {
+    height: 140px;
+ }
+
+.title-page__solid-color {
+    background-color: #07020D;
+    height: 250px;
+    width: -webkit-fill-available;
+    z-index: 0;
+    position: relative;
+    margin-top: -28px;
+} 
+
+
+
+.divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 1%;
+    background-color: #f7f2e3;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-me__title {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.about-me__title h2 {
+    height: 90px;
+}
+
+.about-me__info {
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.about-me__github {
+    inline-size: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__github img {
+    margin-right: 15px;
+}
+
+.about-me__contact-info {
+    background-color: #07020D;
+    color: #f7f2e3;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 0 28px 70px;
+}
+
+.about-me__contact-info h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.about-me__contact-info li {
+    margin-bottom: 10px;
+}
+
+.about-me__date {
+    position: absolute;
+    left: 52%;
+    margin-top: 265px;
+}
+
+.about-me__country {
+    position: absolute;
+    right: 17%;
+    margin-top: 420px;
+}
+
+.about-me__solid-color {
+    background-color: #4A5899;
+    height: 380px;
+    width: 80%;
+    z-index: -1;
+    margin-top: 140px;
+}
+
+
+
+.about-me__language h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.about-me__language div {
+    display: flex;
+}
+
+.about-me__language ul {
+    margin-right: 75px;
+}
+
+
+
+.form__container {
+    width: -webkit-fill-available;
+    margin-top: 80px;
+    background: #FCAB64;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    text-align: justify;
+    padding: 50px;
+}
+
+form input {
+    width: 200px;
+    height: 25px;
+}
+
+form div {
+    margin: 5px 0;
+}
+
+.form__message {
+    height: 100px;
+}
+
+.form__button {
+    border: none;
+    background: #A0CED9;
+    color: #f7f2e3;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 18px;
+    font-family: "Outfit", sans-serif;;
+}
+
+button:hover {
+    background-color: #FCAB64;
+}
+
+
+
+
+
+
+
+
+
+.more-info__solid-color {
+    background-color: #4A5899;
+    height: 250px;
+    width: -webkit-fill-available;
+    z-index: -1;
+    position: relative;
+    margin-top: -100px;
+} 
