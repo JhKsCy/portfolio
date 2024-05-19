@@ -222,9 +222,14 @@ a {
 
 
 
+.about-me__language {
+    margin-top: -80px;
+}
+
 .about-me__language h3 {
     font-size: 30px;
     margin-bottom: 40px;
+    color: #A0CED9;
 }
 
 .about-me__language div {
@@ -233,6 +238,7 @@ a {
 
 .about-me__language ul {
     margin-right: 75px;
+    color: #f7f2e3;
 }
 
 
@@ -246,13 +252,13 @@ a {
 form {
     display: flex;
     flex-direction: column;
-    align-items: self-end;
+    align-items: flex-start;
     text-align: justify;
     padding: 50px;
 }
 
 form input {
-    width: 200px;
+    width:  350px;
     height: 25px;
 }
 
@@ -266,31 +272,82 @@ form div {
 
 .form__button {
     border: none;
-    background: #A0CED9;
+    background: #07020D;
     color: #f7f2e3;
-    padding: 10px 20px;
+    padding: 15px 40px;
     margin: 5px;
-    border-radius: 18px;
-    font-family: "Outfit", sans-serif;;
+    border-radius: 35px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
 }
 
 button:hover {
-    background-color: #FCAB64;
+    background-color: #4A5899;
+}
+
+
+
+.about-me__skills {
+    position: absolute;
+    margin-top: 300px;
+    color: #f7f2e3;
+    text-align: start;
+    margin-left: -58px;
 }
 
 
 
 
+.about-me__bg-graphics {
+    -webkit-text-stroke: 2px #A0CED9;
+   color: transparent;
+   z-index: -1;
+   font-size: 95px;
+   position: absolute;
+   margin-top: -155px;
+   margin-left: -45px;
+}
+
+.about-me__bg-graphics li {
+    height: 95px;
+}
+
+.about-me__skills-title {
+    color: #A0CED9;
+    font-size: 30px;
+    position: absolute;
+    margin: 225px 0 0 -60px
+}
 
 
+
+.about-me__software ul {
+    display: flex;
+}
+
+.about-me__software img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 2px;
+}
 
 
 
 .more-info__solid-color {
     background-color: #4A5899;
-    height: 250px;
+    height: 790px;
     width: -webkit-fill-available;
-    z-index: -1;
+    z-index: -2;
     position: relative;
-    margin-top: -100px;
+    margin-top: -750px;
 } 
+
+
+.credits {
+    font-family: "Outfit", sans-serif;
+    color: #A0CED9;
+    font-size: 10px;
+    position: absolute;
+    margin: 620px 0 0 370px
+}
